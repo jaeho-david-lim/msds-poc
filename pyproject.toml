@@ -26,6 +26,9 @@ classifiers = [
 dependencies = [
     "python-dotenv>=1.0.0",
     "click>=8.1.0",
+    "pdfplumber>=0.10.0",
+    "openpyxl>=3.10.0",
+    "pandas>=2.0.0",
 ]
 
 [project.optional-dependencies]
