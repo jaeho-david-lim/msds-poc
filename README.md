@@ -152,3 +152,22 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🆘 Support
 
 For issues and questions, please open a GitHub issue.
+
+
+## 🧰 Build Windows EXE (PAT)
+
+Use PyInstaller on Windows to package the GUI as `PAT.exe`.
+
+```bash
+pip install pyinstaller
+pyinstaller PAT.spec
+```
+
+Output folder:
+- `dist/PAT/PAT.exe`
+
+Alternative direct build command:
+
+```bash
+pyinstaller --noconfirm --clean --windowed --name PAT --add-data "config.json;." --add-data "assets;assets" main.py
+```
