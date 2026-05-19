@@ -1,8 +1,3 @@
-"""MSDS PoC - Proof of Concept for Multi-Source Data System."""
+from .main import main, run_batch_job
 
-__version__ = "0.1.0"
-__author__ = "MSDS Team"
-
-from .main import run_poc
-
-__all__ = ["run_poc"]
+__all__ = ["main", "run_batch_job"]

@@ -1,0 +1,23 @@
+{
+  "job_name": "",
+  "base_time": "2026-05-19 15:00",
+  "expected_count": 1,
+  "pcrd_watch_folder": "",
+  "quantstep4_folder": "",
+  "result_root_folder": "",
+  "viewer_export_folder": "",
+  "cfx_manager_path": "",
+  "seegene_viewer_path": "",
+  "rules_excel_path": "",
+  "user_id": "",
+  "password": "",
+  "default_wait_viewer_loading_sec": 20,
+  "default_wait_cfx_export_sec": 20,
+  "default_wait_after_apply_sec": 2,
+  "sample_no_checkbox_x": 0,
+  "sample_no_checkbox_y": 0,
+  "continue_on_error": true,
+  "copy_or_move_pcrd": "copy",
+  "app_name": "PAT",
+  "icon_path": "assets/pat_icon.ppm"
+}
